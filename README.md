@@ -62,3 +62,7 @@ Copyright © 2026 上海如静知华信息科技有限公司。
 | ![知华科技微信咨询二维码一](docs/images/zhuatech-wechat-consulting.png) | ![知华科技微信咨询二维码二](docs/images/zhuatech-wechat-consulting-2.png) |
 
 SEO：BCM 系统源码、业务连续性管理、企业韧性、业务影响分析、应急预案、灾难恢复、Java BCM、Vue 业务连续性、知华科技。
+
+## 恢复准备度体检
+
+`POST /api/admin/recovery-readiness` 根据 RTO、备份新鲜度、演练间隔、备用场所和受训人员计算恢复准备度。关键能力不达标时返回备份验证、恢复演练、备用场所启用和人员补位动作。
