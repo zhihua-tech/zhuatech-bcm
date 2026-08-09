@@ -66,3 +66,7 @@ SEO：BCM 系统源码、业务连续性管理、企业韧性、业务影响分�
 ## 恢复准备度体检
 
 `POST /api/admin/recovery-readiness` 根据 RTO、备份新鲜度、演练间隔、备用场所和受训人员计算恢复准备度。关键能力不达标时返回备份验证、恢复演练、备用场所启用和人员补位动作。
+
+## 恢复差距情景评估
+
+新增 `POST /api/bcm/insights/recovery-gap-scenario`，比较目标 RTO 与预计恢复时间，并结合演练间隔、未测试依赖、备份新鲜度和手工替代流程输出 `READY / REMEDIATE / ACTIVATE_CRISIS`，量化恢复差距并生成补救动作。
