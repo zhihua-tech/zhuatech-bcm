@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 export const domain={
  code:'BCM',systemName:'业务连续性管理平台',englishName:'BUSINESS CONTINUITY MANAGEMENT',theme:{primary:'#4c6175',dark:'#293641',accent:'#c78b45'},
  workspace:'风险管理部 / 连续性办公室',fieldWorkspace:'华东运营基地',period:'2026-08-01 · 台风响应窗口',liveText:'关键业务状态于 10:31 更新',fieldContextLabel:'当前响应单元',fieldContext:'华东基地 · 二级戒备',fieldUser:'叶川',fieldRole:'连续性协调员',adminUser:'沈知',adminRole:'业务连续性负责人',

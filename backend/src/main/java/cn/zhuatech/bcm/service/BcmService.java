@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 package cn.zhuatech.bcm.service;
 import cn.zhuatech.bcm.common.BusinessException; import cn.zhuatech.bcm.dto.BcmDto.*; import cn.zhuatech.bcm.model.*; import cn.zhuatech.bcm.repository.*; import org.springframework.stereotype.Service; import org.springframework.transaction.annotation.Transactional; import java.util.*;
 @Service @Transactional(readOnly=true) public class BcmService {
